@@ -1,0 +1,10 @@
+@mixin envited-signature-gradiant {
+    background: linear-gradient(90deg, #8456ec 24.2%, #e87bf8 120.46%);
+}
+@mixin signature-gradiant-text {
+    @include envited-signature-gradiant;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
