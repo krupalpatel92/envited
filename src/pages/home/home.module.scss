@@ -1,10 +1,10 @@
-@import "assets/scss/main";
+@import 'assets/scss/main';
 .wrapper {
 	display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
 }
 .title {
 	color: $darkBlue;
@@ -31,10 +31,9 @@
 	max-width: 521px;
 }
 
-.appScreen{
+.appScreen {
 	width: calc(166px + (311 - 166) * ((100vw - 375px) / (960 - 375)));
 	margin: calc(35px + (52 - 35) * ((100vw - 375px) / (960 - 375))) auto;
 	filter: drop-shadow(0px 0px 17.6435px rgba(0, 0, 0, 0.05));
 	border-radius: 13.2326px;
 }
-
