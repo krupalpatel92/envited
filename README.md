@@ -1,5 +1,3 @@
-krupalpatel92@gmail.com
-
 ## Custom Scripts
 Following command can be used to maintain project and API Mock
 
